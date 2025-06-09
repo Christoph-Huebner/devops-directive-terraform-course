@@ -8,6 +8,14 @@ on:
   release:
     types: [published]
   pull_request:
+    types: [opened, synchronize, reopened]
+
+
+# We allow explicitly the GITHUB_TOKEN to comment on issues/PRs
+permissions:
+  contents: read            # for Checkout, Fetchen of files
+  pull-requests: write      # to PR commend to post
+  issues: write             # if you use issues.createComment instead of issues.createComment()
 
 jobs:
   terraform:

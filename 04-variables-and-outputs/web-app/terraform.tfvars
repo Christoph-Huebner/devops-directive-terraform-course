@@ -1,0 +1,5 @@
+bucket_prefix = "itsr-directive-web-app-data"
+domain        = "itsrdeployed.com"
+db_name       = "mydb"
+db_user       = "foo"
+# db_pass = "foobarbaz"

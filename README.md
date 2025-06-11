@@ -1,6 +1,10 @@
 # DevOps Directive Terraform Course
 
-Replicated from "DevOps Directive" Youtube cource
+## Attribution
+
+This repository is based on the Terraform course by **DevOps Directive**
+Original source: https://github.com/devops-directive/complete-terraform-course
+License: MIT License (see [LICENSE](LICENSE) in the original repo)
 
 This is the companion repo to: [Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)](https://www.youtube.com/watch?v=7xngnjfIlK4)
 
